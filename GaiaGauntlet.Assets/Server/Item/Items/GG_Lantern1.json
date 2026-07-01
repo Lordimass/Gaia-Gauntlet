@@ -21,7 +21,6 @@
     ],
     "ParticleColor": "#ffb616",
     "Light": {
-      "Radius": 0,
       "Color": "#eee"
     },
     "VariantRotation": "NESW",
@@ -32,7 +31,10 @@
     "CubeShadingMode": "Fullbright",
     "Opacity": "Transparent",
     "Group": "Dev",
-    "HitboxType": "Torch_Wall"
+    "HitboxType": "Torch_Wall",
+    "Effect": [
+      "Water"
+    ]
   },
   "PlayerAnimationsId": "Block",
   "Tags": {
