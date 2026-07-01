@@ -1,8 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "GG Lantern 1"
+    "Name": "GG Lantern 2"
   },
-  "Icon": "Icons/ItemsGenerated/GG_Lantern1.png",
+  "Icon": "Icons/ItemsGenerated/GG_Lantern2.png",
   "Categories": [],
   "Quality": "Developer",
   "Interactions": {
@@ -12,10 +12,10 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/GG_Lantern1.blockymodel",
+    "CustomModel": "Blocks/GG_Lantern2.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/GG_Lantern1.png",
+        "Texture": "Blocks/GG_Lantern2.png",
         "Weight": 1
       }
     ],
@@ -32,7 +32,7 @@
     "CubeShadingMode": "Fullbright",
     "Opacity": "Transparent",
     "Group": "Dev",
-    "HitboxType": "Torch_Wall"
+    "HitboxType": "GG_Lantern2"
   },
   "PlayerAnimationsId": "Block",
   "Tags": {
@@ -49,7 +49,7 @@
     ],
     "Translation": [
       1,
-      -50
+      -25
     ]
   }
 }
