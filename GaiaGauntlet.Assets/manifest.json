@@ -1,0 +1,21 @@
+{
+  "Group": "GaiaGauntlet",
+  "Name": "Assets",
+  "Version": "1.0.0",
+  "Description": "",
+  "Authors": [
+    {
+      "Name": "Lordimass",
+      "Email": "lordimass@lordimass.net",
+      "Url": "https://lordimass.net"
+    }
+  ],
+  "Website": "",
+  "ServerVersion": ">=0.5.6 <0.6.0",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

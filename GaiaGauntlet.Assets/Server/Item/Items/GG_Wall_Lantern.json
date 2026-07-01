@@ -1,0 +1,163 @@
+{
+  "TranslationProperties": {
+    "Name": "GG Wall Lantern",
+    "Description": ""
+  },
+  "InteractionConfig": {
+    "Priorities": {
+      "Secondary": {
+        "MainHand": 1,
+        "OffHand": -1
+      }
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Tree_Sap",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 4,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Tools"
+        ],
+        "Id": "Fieldcraft"
+      },
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Survival"
+        ]
+      }
+    ]
+  },
+  "InteractionVars": {
+    "Torch_Swing_Left_Effect": "Torch_Swing_Left_Effect",
+    "Torch_Swing_Right_Effect": "Torch_Swing_Right_Effect",
+    "Torch_Swing_Left_Damage": "Torch_Swing_Left_Damage",
+    "Torch_Swing_Right_Damage": "Torch_Swing_Right_Damage"
+  },
+  "Categories": [
+    "Furniture.Lighting"
+  ],
+  "Utility": {
+    "Usable": true
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/GG_Wall_Lantern/GG_Wall_Lantern.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/GG_Wall_Lantern/GG_Wall_Lantern.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelScale": 1.5,
+    "Light": {
+      "Radius": 5,
+      "Color": "#fff"
+    },
+    "Flags": {},
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "PlacementSettings": {
+      "WallPlacementOverrideBlockId": "GG_Wall_Lantern",
+      "AllowRotationKey": false,
+      "PlaceInEmptyBlocks": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Branch"
+        },
+        {
+          "FaceType": "Rock_Beam"
+        },
+        {
+          "FaceType": "Wood_Beam"
+        },
+        {
+          "FaceType": "Fence"
+        },
+        {
+          "FaceType": "Fence_Corner"
+        },
+        {
+          "FaceType": "Wall"
+        },
+        {
+          "FaceType": "Wall_Corner"
+        }
+      ]
+    },
+    "BlockParticleSetId": "Wood",
+    "HitboxType": "GG_Wall_Lantern",
+    "MovementSettings": {},
+    "Material": "Empty",
+    "State": {
+      "Definitions": {
+        "Off": {
+          "InteractionHint": "server.interactionHints.turnon",
+          "Light": null,
+          "Particles": null,
+          "InteractionSoundEventId": "SFX_Torch_Off",
+          "AmbientSoundEventId": null,
+          "CustomModelAnimation": "Items/Torch/Torch_Off.blockyanim",
+          "BlockSoundSetId": "Wood"
+        }
+      }
+    },
+    "Looping": true,
+    "VariantRotation": "NESW",
+    "TextureComputedColor": "#532D1C",
+    "ParticleColor": "#63412c"
+  },
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1.3,
+    "Rotation": [
+      0,
+      215,
+      360
+    ],
+    "Translation": [
+      10,
+      -16
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/GG_Wall_Lantern.png",
+  "Scale": 1.6,
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Crude"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Interactions": {
+    "Secondary": "Block_Secondary"
+  }
+}

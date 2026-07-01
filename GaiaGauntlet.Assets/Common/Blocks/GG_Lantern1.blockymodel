@@ -1,0 +1,6232 @@
+{
+  "lod": "auto",
+  "nodes": [
+    {
+      "id": "600",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": 5.325,
+        "y": 86.483,
+        "z": -5.2822
+      },
+      "orientation": {
+        "x": 0.17702961087099736,
+        "y": 0.6870069341599774,
+        "z": -0.1767864869069181,
+        "w": 0.6822232239803052
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "601",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": 7.3831,
+        "y": 70.9938,
+        "z": -11.9502
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "602",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": -4.9936,
+        "y": 81.2291,
+        "z": -11.9492
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "603",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": 0.8051,
+        "y": 86.483,
+        "z": -9.8555
+      },
+      "orientation": {
+        "x": -5.230320673055205E-4,
+        "y": -0.9681957228616733,
+        "z": 0.250185274721799,
+        "w": 0.0020241003424189934
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "604",
+      "name": "Rock_Gold_Brick_Wall",
+      "position": {
+        "x": 0.6843,
+        "y": 56.262,
+        "z": -1.4619
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999996712872039,
+        "z": 0.0,
+        "w": 8.108177872758597E-4
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "6",
+          "name": "Top",
+          "position": {
+            "x": 0.0,
+            "y": 5.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.4,
+              "y": 0.4,
+              "z": 0.4
+            },
+            "textureLayout": {
+              "left": {
+                "offset": {
+                  "x": 9,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 22,
+                  "y": 82
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 9,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 9,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 11,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 10.0,
+                "y": 25.0,
+                "z": 8.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "11",
+          "name": "Block",
+          "position": {
+            "x": -4.6000000000000005,
+            "y": 5.2,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": -0.4,
+              "y": 0.4,
+              "z": 0.4
+            },
+            "textureLayout": {
+              "left": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 5.0,
+                "y": 26.0,
+                "z": 5.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": [
+            {
+              "id": "25",
+              "name": "Node",
+              "position": {
+                "x": 0.0,
+                "y": 0.4,
+                "z": 0.0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "stretch": {
+                  "x": 0.4,
+                  "y": 0.4,
+                  "z": 0.4
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 23,
+                      "y": 56
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 25,
+                      "y": 82
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 7.0,
+                    "y": 3.0,
+                    "z": 7.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              },
+              "children": []
+            },
+            {
+              "id": "27",
+              "name": "Node",
+              "position": {
+                "x": 0.0,
+                "y": -4.2,
+                "z": 0.0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "stretch": {
+                  "x": -0.4,
+                  "y": 0.4,
+                  "z": 0.4
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 22,
+                      "y": 64
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 23,
+                      "y": 82
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 9.0,
+                    "y": 5.0,
+                    "z": 7.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "name": "Top",
+          "position": {
+            "x": 0.0,
+            "y": 11.600000000000001,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.4,
+              "y": 0.4,
+              "z": 0.4
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 0,
+                  "y": 32
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 18,
+                  "y": 47
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 82
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 47
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 47
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 47
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 32.0,
+                "y": 6.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "28",
+          "name": "Node",
+          "position": {
+            "x": 0.0,
+            "y": 9.8,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.4,
+              "y": 0.4,
+              "z": 0.4258888
+            },
+            "textureLayout": {
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 53
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 11,
+                  "y": 82
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 1,
+                  "y": 53
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 1,
+                  "y": 53
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 11,
+                  "y": 53
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 21.0,
+                "y": 3.0,
+                "z": 8.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "29",
+          "name": "Block",
+          "position": {
+            "x": 4.6000000000000005,
+            "y": 5.2,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.4,
+              "y": 0.4,
+              "z": 0.4
+            },
+            "textureLayout": {
+              "left": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 5.0,
+                "y": 26.0,
+                "z": 5.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": [
+            {
+              "id": "30",
+              "name": "Node",
+              "position": {
+                "x": 0.0,
+                "y": 0.4,
+                "z": 0.0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "stretch": {
+                  "x": -0.4,
+                  "y": 0.4,
+                  "z": 0.4
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 23,
+                      "y": 56
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 25,
+                      "y": 82
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 7.0,
+                    "y": 3.0,
+                    "z": 7.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              },
+              "children": []
+            },
+            {
+              "id": "31",
+              "name": "Node",
+              "position": {
+                "x": 0.0,
+                "y": -4.2,
+                "z": 0.0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "stretch": {
+                  "x": 0.4,
+                  "y": 0.4,
+                  "z": 0.4
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 22,
+                      "y": 64
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 23,
+                      "y": 82
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 9.0,
+                    "y": 5.0,
+                    "z": 7.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "605",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": 7.1611,
+        "y": 71.4684,
+        "z": -0.0459
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "606",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": -4.9937,
+        "y": 76.1824,
+        "z": -11.9492
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "607",
+      "name": "Rock_Gold_Brick_Roof_Flat",
+      "position": {
+        "x": 0.9601,
+        "y": 86.2644,
+        "z": -5.6904
+      },
+      "orientation": {
+        "x": 0.0,
+        "y": 0.6999291541533155,
+        "z": -0.0,
+        "w": 0.7142122787842732
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "506",
+          "name": "wood",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 8.73E-4,
+            "z": 0.0,
+            "w": -1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.404,
+              "y": 0.404,
+              "z": 0.404
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 32,
+                  "y": 128
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 32,
+                  "y": 160
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 180
+              },
+              "bottom": {
+                "offset": {
+                  "x": 64,
+                  "y": 160
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 64,
+                  "y": 144
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 64,
+                  "y": 160
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 64,
+                  "y": 160
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 180
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 32.0,
+                "y": 8.0,
+                "z": 32.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": [
+            {
+              "id": "507",
+              "name": "Hay",
+              "position": {
+                "x": -0.0087328,
+                "y": 0.599336,
+                "z": -0.0088376
+              },
+              "orientation": {
+                "x": 0.001236,
+                "y": 0.708339,
+                "z": -0.70587,
+                "w": -0.001232
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": -0.6961472
+                },
+                "stretch": {
+                  "x": 0.42000000000000004,
+                  "y": 0.42000000000000004,
+                  "z": 0.42000000000000004
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 72,
+                      "y": 128
+                    },
+                    "mirror": {
+                      "x": true,
+                      "y": true
+                    },
+                    "angle": 270
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 32,
+                      "y": 128
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 90
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 64,
+                      "y": 128
+                    },
+                    "mirror": {
+                      "x": true,
+                      "y": false
+                    },
+                    "angle": 270
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 96,
+                      "y": 128
+                    },
+                    "mirror": {
+                      "x": true,
+                      "y": false
+                    },
+                    "angle": 90
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 96,
+                      "y": 96
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 90
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 32,
+                      "y": 136
+                    },
+                    "mirror": {
+                      "x": true,
+                      "y": false
+                    },
+                    "angle": 90
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 32.0,
+                    "y": 32.0,
+                    "z": 8.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "flat"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "608",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": 7.1611,
+        "y": 81.2291,
+        "z": -0.0469
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "609",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": -3.644,
+        "y": 86.483,
+        "z": -5.2822
+      },
+      "orientation": {
+        "x": 0.17553214852614052,
+        "y": -0.687057070684516,
+        "z": 0.1782736569045228,
+        "w": 0.6821726685452132
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "610",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": 7.1611,
+        "y": 77.0112,
+        "z": -0.0459
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "611",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": -4.9936,
+        "y": 76.8845,
+        "z": -0.0469
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "612",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": 7.3831,
+        "y": 81.1041,
+        "z": -11.9502
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "613",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": 7.3831,
+        "y": 75.2661,
+        "z": -11.9502
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "614",
+      "name": "Rock_Gold_Brick_Wall",
+      "position": {
+        "x": 4.2456,
+        "y": 56.2629,
+        "z": -4.9756
+      },
+      "orientation": {
+        "x": 0.0,
+        "y": 0.8624341984610283,
+        "z": 0.0,
+        "w": 0.506169194365761
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "6",
+          "name": "Top",
+          "position": {
+            "x": 0.0,
+            "y": 5.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.4,
+              "y": 0.4,
+              "z": 0.4
+            },
+            "textureLayout": {
+              "left": {
+                "offset": {
+                  "x": 9,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 22,
+                  "y": 82
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 9,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 9,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 11,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 10.0,
+                "y": 25.0,
+                "z": 8.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "11",
+          "name": "Block",
+          "position": {
+            "x": -4.6000000000000005,
+            "y": 5.2,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": -0.4,
+              "y": 0.4,
+              "z": 0.4
+            },
+            "textureLayout": {
+              "left": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 5.0,
+                "y": 26.0,
+                "z": 5.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": [
+            {
+              "id": "25",
+              "name": "Node",
+              "position": {
+                "x": 0.0,
+                "y": 0.4,
+                "z": 0.0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "stretch": {
+                  "x": 0.4,
+                  "y": 0.4,
+                  "z": 0.4
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 23,
+                      "y": 56
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 25,
+                      "y": 82
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 7.0,
+                    "y": 3.0,
+                    "z": 7.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              },
+              "children": []
+            },
+            {
+              "id": "27",
+              "name": "Node",
+              "position": {
+                "x": 0.0,
+                "y": -4.2,
+                "z": 0.0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "stretch": {
+                  "x": -0.4,
+                  "y": 0.4,
+                  "z": 0.4
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 22,
+                      "y": 64
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 23,
+                      "y": 82
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 9.0,
+                    "y": 5.0,
+                    "z": 7.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "name": "Top",
+          "position": {
+            "x": 0.0,
+            "y": 11.600000000000001,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.4,
+              "y": 0.4,
+              "z": 0.4
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 0,
+                  "y": 32
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 18,
+                  "y": 47
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 82
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 47
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 47
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 47
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 32.0,
+                "y": 6.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "28",
+          "name": "Node",
+          "position": {
+            "x": 0.0,
+            "y": 9.8,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.4,
+              "y": 0.4,
+              "z": 0.4258888
+            },
+            "textureLayout": {
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 53
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 11,
+                  "y": 82
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 1,
+                  "y": 53
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 1,
+                  "y": 53
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 11,
+                  "y": 53
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 21.0,
+                "y": 3.0,
+                "z": 8.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "29",
+          "name": "Block",
+          "position": {
+            "x": 4.6000000000000005,
+            "y": 5.2,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.4,
+              "y": 0.4,
+              "z": 0.4
+            },
+            "textureLayout": {
+              "left": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 5.0,
+                "y": 26.0,
+                "z": 5.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": [
+            {
+              "id": "30",
+              "name": "Node",
+              "position": {
+                "x": 0.0,
+                "y": 0.4,
+                "z": 0.0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "stretch": {
+                  "x": -0.4,
+                  "y": 0.4,
+                  "z": 0.4
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 23,
+                      "y": 56
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 25,
+                      "y": 82
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 7.0,
+                    "y": 3.0,
+                    "z": 7.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              },
+              "children": []
+            },
+            {
+              "id": "31",
+              "name": "Node",
+              "position": {
+                "x": 0.0,
+                "y": -4.2,
+                "z": 0.0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "stretch": {
+                  "x": 0.4,
+                  "y": 0.4,
+                  "z": 0.4
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 22,
+                      "y": 64
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 23,
+                      "y": 82
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 9.0,
+                    "y": 5.0,
+                    "z": 7.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "615",
+      "name": "Rock_Gold_Brick_Roof_Flat",
+      "position": {
+        "x": 0.9601,
+        "y": 70.5399,
+        "z": -5.6904
+      },
+      "orientation": {
+        "x": 0.0,
+        "y": 0.6999291541533155,
+        "z": -0.0,
+        "w": 0.7142122787842732
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "506",
+          "name": "wood",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 8.73E-4,
+            "z": 0.0,
+            "w": -1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.404,
+              "y": 0.404,
+              "z": 0.404
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 32,
+                  "y": 128
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 32,
+                  "y": 160
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 180
+              },
+              "bottom": {
+                "offset": {
+                  "x": 64,
+                  "y": 160
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 64,
+                  "y": 144
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 64,
+                  "y": 160
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 64,
+                  "y": 160
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 180
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 32.0,
+                "y": 8.0,
+                "z": 32.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": [
+            {
+              "id": "507",
+              "name": "Hay",
+              "position": {
+                "x": -0.0087328,
+                "y": 0.599336,
+                "z": -0.0088376
+              },
+              "orientation": {
+                "x": 0.001236,
+                "y": 0.708339,
+                "z": -0.70587,
+                "w": -0.001232
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": -0.6961472
+                },
+                "stretch": {
+                  "x": 0.42000000000000004,
+                  "y": 0.42000000000000004,
+                  "z": 0.42000000000000004
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 72,
+                      "y": 128
+                    },
+                    "mirror": {
+                      "x": true,
+                      "y": true
+                    },
+                    "angle": 270
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 32,
+                      "y": 128
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 90
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 64,
+                      "y": 128
+                    },
+                    "mirror": {
+                      "x": true,
+                      "y": false
+                    },
+                    "angle": 270
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 96,
+                      "y": 128
+                    },
+                    "mirror": {
+                      "x": true,
+                      "y": false
+                    },
+                    "angle": 90
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 96,
+                      "y": 96
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 90
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 32,
+                      "y": 136
+                    },
+                    "mirror": {
+                      "x": true,
+                      "y": false
+                    },
+                    "angle": 90
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 32.0,
+                    "y": 32.0,
+                    "z": 8.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "flat"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "616",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": -4.9937,
+        "y": 70.9938,
+        "z": -11.9502
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "617",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": -4.9936,
+        "y": 71.4137,
+        "z": -0.0469
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "618",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": 0.8625,
+        "y": 94.4576,
+        "z": -5.6621
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "619",
+      "name": "Rock_Gold_Brick_Wall",
+      "position": {
+        "x": -1.9091,
+        "y": 56.2416,
+        "z": -4.9756
+      },
+      "orientation": {
+        "x": 0.0,
+        "y": 0.5280503440852551,
+        "z": -0.0,
+        "w": 0.8492130675581033
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "6",
+          "name": "Top",
+          "position": {
+            "x": 0.0,
+            "y": 5.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.4,
+              "y": 0.4,
+              "z": 0.4
+            },
+            "textureLayout": {
+              "left": {
+                "offset": {
+                  "x": 9,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 22,
+                  "y": 82
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 9,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 9,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 11,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 10.0,
+                "y": 25.0,
+                "z": 8.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "11",
+          "name": "Block",
+          "position": {
+            "x": -4.6000000000000005,
+            "y": 5.2,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": -0.4,
+              "y": 0.4,
+              "z": 0.4
+            },
+            "textureLayout": {
+              "left": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 5.0,
+                "y": 26.0,
+                "z": 5.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": [
+            {
+              "id": "25",
+              "name": "Node",
+              "position": {
+                "x": 0.0,
+                "y": 0.4,
+                "z": 0.0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "stretch": {
+                  "x": 0.4,
+                  "y": 0.4,
+                  "z": 0.4
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 23,
+                      "y": 56
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 25,
+                      "y": 82
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 7.0,
+                    "y": 3.0,
+                    "z": 7.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              },
+              "children": []
+            },
+            {
+              "id": "27",
+              "name": "Node",
+              "position": {
+                "x": 0.0,
+                "y": -4.2,
+                "z": 0.0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "stretch": {
+                  "x": -0.4,
+                  "y": 0.4,
+                  "z": 0.4
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 22,
+                      "y": 64
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 23,
+                      "y": 82
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 9.0,
+                    "y": 5.0,
+                    "z": 7.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "name": "Top",
+          "position": {
+            "x": 0.0,
+            "y": 11.600000000000001,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.4,
+              "y": 0.4,
+              "z": 0.4
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 0,
+                  "y": 32
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 18,
+                  "y": 47
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 82
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 47
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 47
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 47
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 32.0,
+                "y": 6.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "28",
+          "name": "Node",
+          "position": {
+            "x": 0.0,
+            "y": 9.8,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.4,
+              "y": 0.4,
+              "z": 0.4258888
+            },
+            "textureLayout": {
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 53
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 11,
+                  "y": 82
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 1,
+                  "y": 53
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 1,
+                  "y": 53
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 11,
+                  "y": 53
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 21.0,
+                "y": 3.0,
+                "z": 8.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": []
+        },
+        {
+          "id": "29",
+          "name": "Block",
+          "position": {
+            "x": 4.6000000000000005,
+            "y": 5.2,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.4,
+              "y": 0.4,
+              "z": 0.4
+            },
+            "textureLayout": {
+              "left": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 1,
+                  "y": 56
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 5.0,
+                "y": 26.0,
+                "z": 5.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          },
+          "children": [
+            {
+              "id": "30",
+              "name": "Node",
+              "position": {
+                "x": 0.0,
+                "y": 0.4,
+                "z": 0.0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "stretch": {
+                  "x": -0.4,
+                  "y": 0.4,
+                  "z": 0.4
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 23,
+                      "y": 56
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 25,
+                      "y": 82
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 22,
+                      "y": 72
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 7.0,
+                    "y": 3.0,
+                    "z": 7.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              },
+              "children": []
+            },
+            {
+              "id": "31",
+              "name": "Node",
+              "position": {
+                "x": 0.0,
+                "y": -4.2,
+                "z": 0.0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "shape": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "stretch": {
+                  "x": 0.4,
+                  "y": 0.4,
+                  "z": 0.4
+                },
+                "textureLayout": {
+                  "top": {
+                    "offset": {
+                      "x": 22,
+                      "y": 64
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {
+                      "x": 23,
+                      "y": 82
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "back": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {
+                      "x": 22,
+                      "y": 76
+                    },
+                    "mirror": {
+                      "x": false,
+                      "y": false
+                    },
+                    "angle": 0
+                  }
+                },
+                "type": "box",
+                "settings": {
+                  "size": {
+                    "x": 9.0,
+                    "y": 5.0,
+                    "z": 7.0
+                  },
+                  "isPiece": false,
+                  "isStaticBox": false
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "standard"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "620",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": 0.8669,
+        "y": 86.6154,
+        "z": -1.1846
+      },
+      "orientation": {
+        "x": 5.263865755218829E-4,
+        "y": -0.967779597190225,
+        "z": -0.2517901521364973,
+        "w": 0.002023231716480274
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "621",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": -4.9936,
+        "y": 81.2291,
+        "z": -0.0469
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "622",
+      "name": "Rock_Gold_Brick_Beam",
+      "position": {
+        "x": 0.8669,
+        "y": 88.2239,
+        "z": -5.6748
+      },
+      "orientation": {
+        "x": -0.0,
+        "y": -0.9999978145945753,
+        "z": 0.0,
+        "w": 0.0020906472857746784
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "root1",
+          "position": {
+            "x": -0.4,
+            "y": 3.2,
+            "z": -0.6000000000000001
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.4,
+              "y": 0.0,
+              "z": 0.6000000000000001
+            },
+            "stretch": {
+              "x": 0.2,
+              "y": 0.2,
+              "z": 0.2
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 14,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 90
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": true,
+                  "y": true
+                },
+                "angle": 90
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 28
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": true,
+                  "y": false
+                },
+                "angle": 270
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "mirror": {
+                  "x": false,
+                  "y": true
+                },
+                "angle": 90
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 14.0,
+                "y": 32.0,
+                "z": 14.0
+              },
+              "isPiece": false,
+              "isStaticBox": false
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        }
+      ]
+    },
+    {
+      "id": "623",
+      "name": "Build_Lightsource_White",
+      "position": {
+        "x": 1.2493,
+        "y": 75.0666,
+        "z": -5.9648
+      },
+      "orientation": {
+        "x": 0.0,
+        "y": 0.9999950498186263,
+        "z": 0.0,
+        "w": 0.0031464802944095043
+      },
+      "shape": {
+        "offset": {
+          "x": 0.0,
+          "y": -16.0,
+          "z": 0.0
+        },
+        "stretch": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "textureLayout": {},
+        "type": "none",
+        "settings": {
+          "isPiece": false,
+          "isStaticBox": false
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "1",
+          "name": "block",
+          "position": {
+            "x": 0.0,
+            "y": 4.8,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "shape": {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "stretch": {
+              "x": 0.3,
+              "y": 0.3,
+              "z": 0.3
+            },
+            "textureLayout": {
+              "top": {
+                "offset": {
+                  "x": 0,
+                  "y": 192
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "left": {
+                "offset": {
+                  "x": 0,
+                  "y": 192
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {
+                  "x": 0,
+                  "y": 192
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "back": {
+                "offset": {
+                  "x": 0,
+                  "y": 192
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "right": {
+                "offset": {
+                  "x": 0,
+                  "y": 192
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              },
+              "front": {
+                "offset": {
+                  "x": 0,
+                  "y": 192
+                },
+                "mirror": {
+                  "x": false,
+                  "y": false
+                },
+                "angle": 0
+              }
+            },
+            "type": "box",
+            "settings": {
+              "size": {
+                "x": 32.0,
+                "y": 32.0,
+                "z": 32.0
+              },
+              "isPiece": false,
+              "isStaticBox": true
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          }
+        }
+      ]
+    }
+  ]
+}
