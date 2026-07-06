@@ -4,7 +4,7 @@
   },
   "PlayerAnimationsId": "Item",
   "Categories": [
-    "Furniture.Signs"
+    "GG_Items.GG_Items2"
   ],
   "Set": "Furniture_Human",
   "Icon": "Icons/ItemsGenerated/GG_Banner.png",
@@ -44,15 +44,6 @@
     "Material": "Solid",
     "Opacity": "Transparent",
     "ParticleColor": "#4c4a31",
-    "Support": {
-      "Down": [
-        {
-          "AllowSupportPropagation": false,
-          "FaceType": "Full",
-          "Rotate": false
-        }
-      ]
-    },
     "VariantRotation": "NESW",
     "BlockSoundSetId": "Cloth",
     "PhysicalMaterialId": "Wool",
@@ -71,6 +62,6 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
-  "Quality": "Developer",
+  "Quality": "Legendary",
   "Scale": 0.25
 }

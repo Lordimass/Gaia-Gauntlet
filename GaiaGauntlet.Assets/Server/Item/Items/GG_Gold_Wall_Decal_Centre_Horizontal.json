@@ -3,8 +3,10 @@
     "Name": "GG Gold Wall Decal Centre Horizontal"
   },
   "Icon": "Icons/ItemsGenerated/GG_Gold_Wall_Decal_Centre_Horizontal.png",
-  "Categories": [],
-  "Quality": "Developer",
+  "Categories": [
+    "GG_Items.GG_Items2"
+  ],
+  "Quality": "Legendary",
   "Interactions": {
     "Primary": "Block_Primary",
     "Secondary": "Block_Secondary"

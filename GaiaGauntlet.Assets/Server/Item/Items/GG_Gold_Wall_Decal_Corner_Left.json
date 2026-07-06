@@ -3,8 +3,10 @@
     "Name": "GG Gold Wall Decal Corner Left"
   },
   "Icon": "Icons/ItemsGenerated/GG_Gold_Wall_Decal_Corner_Left.png",
-  "Categories": [],
-  "Quality": "Developer",
+  "Categories": [
+    "GG_Items.GG_Items2"
+  ],
+  "Quality": "Legendary",
   "Interactions": {
     "Primary": "Block_Primary",
     "Secondary": "Block_Secondary"

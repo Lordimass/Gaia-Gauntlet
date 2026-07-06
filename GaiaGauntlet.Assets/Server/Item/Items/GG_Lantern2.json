@@ -3,8 +3,10 @@
     "Name": "GG Lantern 2"
   },
   "Icon": "Icons/ItemsGenerated/GG_Lantern2.png",
-  "Categories": [],
-  "Quality": "Developer",
+  "Categories": [
+    "GG_Items.GG_Items2"
+  ],
+  "Quality": "Legendary",
   "Interactions": {
     "Primary": "Block_Primary",
     "Secondary": "Block_Secondary"
