@@ -1,0 +1,75 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "GG_MagicPortal_Spawn"
+    },
+    {
+      "SpawnerId": "GG_MagicPortal_Flash",
+      "PositionOffset": {
+        "Z": 5
+      }
+    },
+    {
+      "SpawnerId": "GG_MagicPortal_CenterCircle",
+      "PositionOffset": {
+        "Y": 1,
+        "X": -0.3
+      }
+    },
+    {
+      "SpawnerId": "GG_MagicPortal_Smoke",
+      "StartDelay": 0,
+      "PositionOffset": {
+        "Y": 0.2,
+        "X": 0.0
+      }
+    },
+    {
+      "SpawnerId": "GG_MagicPortal_Sparks"
+    },
+    {
+      "SpawnerId": "GG_MagicPortal_Center",
+      "StartDelay": 0.5
+    },
+    {
+      "SpawnerId": "GG_MagicPortal_CenterGlow",
+      "StartDelay": 0.5
+    },
+    {
+      "SpawnerId": "GG_MagicPortal_SmokeMiddle",
+      "RotationOffset": {
+        "Pitch": 90.0
+      }
+    },
+    {
+      "SpawnerId": "GG_MagicPortal_GlowSmoke",
+      "RotationOffset": {
+        "Pitch": 90.0
+      },
+      "PositionOffset": {
+        "X": 0.0,
+        "Z": 0,
+        "Y": 0
+      }
+    },
+    {
+      "SpawnerId": "GG_MagicPortal_GlowCentreIntense",
+      "PositionOffset": {
+        "Y": 0.0,
+        "X": 0.0
+      }
+    },
+    {
+      "SpawnerId": "GG_MagicPortal_OuterCircle",
+      "RotationOffset": {
+        "Pitch": 90.0
+      },
+      "PositionOffset": {
+        "X": 0.0,
+        "Y": 0
+      }
+    }
+  ],
+  "CullDistance": 400,
+  "IsImportant": true
+}

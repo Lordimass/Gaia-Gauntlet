@@ -1,0 +1,27 @@
+{
+    "Group": "com.gaiagauntlet",
+    "Name": "GG Server Plugin",
+    "Version": "0.0.1",
+    "Description": "Official server-side plugin for the Gaia Gauntlet server.",
+    "Authors": [
+        {
+            "Name": "Lordimass",
+            "Email": "lordimass@lordimass.net",
+            "Url": "https://lordimass.net"
+        }
+    ],
+    "Website": "https://gaiagauntlet.com",
+    "ServerVersion": ">=0.5.6 <0.6.0",
+    "Dependencies": {
+        "Hytale:AssetModule": "*"
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "Main": "com.replaceme.modid.Main",
+    "IncludesAssetPack": true,
+    "UpdateChecker": {
+        "CurseForge": ""
+    }
+}
