@@ -16,10 +16,10 @@
         "Hytale:AssetModule": "*"
     },
     "OptionalDependencies": {
-        
+        "com.creditor:Creditor": "*"
     },
     "DisabledByDefault": false,
-    "Main": "com.replaceme.modid.Main",
+    "Main": "com.gaiagauntlet.gg_server_plugin.GGServerPlugin",
     "IncludesAssetPack": true,
     "UpdateChecker": {
         "CurseForge": ""
