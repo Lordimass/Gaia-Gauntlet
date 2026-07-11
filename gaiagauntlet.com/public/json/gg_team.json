@@ -1,0 +1,41 @@
+{
+  "people": [
+    {
+      "name": "Ikari",
+      "image": "/people/Lordimass.png",
+      "tags": [
+        "Project Lead"
+      ]
+    },
+    {
+      "name": "Lordimass",
+      "image": "/people/Lordimass.png",
+      "quote": "Just an Imp.",
+      "socials": [
+        {
+          "name": "Website",
+          "url": "https://lordimass.net"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/lordimass"
+        },
+        {
+          "name": "Bluesky",
+          "url": "https://bsky.app/profile/lordimass.net"
+        },
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/@lordimass"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com/users/969949353605230604"
+        }
+      ],
+      "tags": [
+        "Developer", "Builder", "Modeller"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+.page {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  max-width: 1000px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.headerContainer {
+  overflow: hidden;
+  width: 100%;
+  height: 20rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  box-shadow: 0 5px 10px #000;
+}
+
+.header {
+  display: flex;
+  background: rgba(0,0,0, 0.1); /* Darken Background*/
+  box-shadow: 0 0 10rem 2rem rgba(0,0,0,0.9) inset;
+  z-index: 1;
+  position: relative;
+  top: -200%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerBg { /* Background tiling */
+  content: "";
+  position: relative;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: url("/branding/G_tile.png") 0 0 repeat;
+  background-size: 3.5rem;
+  rotate: -10deg;
+  filter: saturate(150%);
+}
+
+.gaia {
+  height: 100%;
+  width: auto;
+  transform: scaleX(-100%);
+}
+
+#ggLogo {
+  width: 40rem;
+  height: auto;
+}
+
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0 2rem 0;
+  margin: 4rem 0 2rem 0;
+  background-color: black;
+  width: 100vw;
+  box-shadow: 0 5px 5px #000, 0 -5px 5px #000;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 24px;
+  width: 100%;
+}

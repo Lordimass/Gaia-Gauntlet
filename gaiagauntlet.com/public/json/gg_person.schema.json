@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "people": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the person"
+          },
+          "image": {
+            "type": "string",
+            "description": "Path relative to `public` of the image representing this person."
+          },
+          "socials": {
+            "type": "array",
+            "description": "List of social media associated with this person.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "description": "Name of the social media platform",
+                  "allOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "Twitter",
+                        "Bluesky",
+                        "YouTube",
+                        "Discord",
+                        "Instagram",
+                        "Website"
+                      ]
+                    }
+                  ]
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri",
+                  "description": "URL link to the social media page."
+                }
+              },
+              "required": [
+                "name",
+                "url"
+              ]
+            },
+            "uniqueItems": true
+          },
+          "tags": {
+            "type": "array",
+            "description": "Short bits of text relevant to this person's role.",
+            "items": {
+              "maxLength": 15,
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "quote": {
+            "type": "string",
+            "description": "An optional quote attached to the person"
+          }
+        },
+        "required": [
+          "name",
+          "image"
+        ]
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "people"
+  ]
+}
