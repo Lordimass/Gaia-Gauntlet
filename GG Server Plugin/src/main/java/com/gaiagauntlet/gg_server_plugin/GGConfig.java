@@ -9,6 +9,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import javax.annotation.Nullable;
+
 @ToString
 public class GGConfig {
     public static final BuilderCodec<GGConfig> CODEC =
@@ -22,7 +24,7 @@ public class GGConfig {
             .add()
             .build();
 
-    @Setter @Getter private GGPoi timerPoi;
+    @Setter @Getter @Nullable private GGPoi timerPoi;
 
     public static GGConfig get() {
         return GGServerPlugin.get().config.get();

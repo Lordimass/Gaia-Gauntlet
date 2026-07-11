@@ -1,17 +1,13 @@
 package com.gaiagauntlet.gg_server_plugin.prefabTimer.systems;
 
 import com.gaiagauntlet.gg_server_plugin.GGConfig;
-import com.hypixel.hytale.component.ArchetypeChunk;
-import com.hypixel.hytale.component.CommandBuffer;
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
-import com.hypixel.hytale.component.query.Query;
-import com.hypixel.hytale.component.system.tick.DelayedEntitySystem;
+import com.hypixel.hytale.component.system.tick.TickingSystem;
 import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.math.Axis;
 import com.hypixel.hytale.math.vector.Transform;
 import com.hypixel.hytale.server.core.console.ConsoleSender;
-import com.hypixel.hytale.server.core.entity.entities.Player;
 import com.hypixel.hytale.server.core.prefab.PrefabStore;
 import com.hypixel.hytale.server.core.prefab.selection.standard.BlockSelection;
 import com.hypixel.hytale.server.core.universe.Universe;
@@ -19,40 +15,42 @@ import com.hypixel.hytale.server.core.universe.world.World;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import org.joml.Vector3i;
 import org.jspecify.annotations.NonNull;
-import org.jspecify.annotations.Nullable;
 
 import java.awt.*;
 import java.nio.file.Path;
 
-public class UpdateTimerSystem extends DelayedEntitySystem<EntityStore> {
+public class UpdateTimerSystem extends TickingSystem<EntityStore> {
     private static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
 
     public static float secondsLeft = 0;
+    public static float cumulativeSecond = 0;
+
     public static boolean paused = true;
     private static GGConfig.GGPoi timerPoi;
     private static World poiWorld;
 
     public UpdateTimerSystem() {
-        super(1.0F);
+        super();
     }
 
     @Override
     public void tick(
         float dt,
         int index,
-        @NonNull ArchetypeChunk archetypeChunk,
-        @NonNull Store store,
-        @NonNull CommandBuffer commandBuffer
+        @NonNull Store<EntityStore> store
     ) {
         if (paused) return;
+        World world = store.getExternalData().getWorld();
+        updateTimerPoi();
+        if (timerPoi == null || world.getName().equals(timerPoi.getWorldName())) return;
+        cumulativeSecond += dt;
+        if (cumulativeSecond <= 1) return;
+
         paused = secondsLeft <= 0;
         int secondsCeil = (int) Math.ceil(secondsLeft);
 
         int minutes = secondsCeil / 60;
         int seconds = secondsCeil % 60;
-
-        if (timerPoi == null) {updateTimerPoi();}
-        if (timerPoi == null) {return;}
 
         if (timerPoi.getTransform().getAxis().equals(Axis.X)) {
             placeDigitsXAxis(minutes, seconds);
@@ -60,12 +58,8 @@ public class UpdateTimerSystem extends DelayedEntitySystem<EntityStore> {
             placeDigitsZAxis(minutes, seconds);
         }
 
-        secondsLeft = Math.max(0, secondsLeft - dt);
-    }
-
-    @Override
-    public @Nullable Query<EntityStore> getQuery() {
-        return Player.getComponentType();
+        secondsLeft = Math.max(0, secondsLeft - cumulativeSecond);
+        cumulativeSecond -= cumulativeSecond;
     }
 
     public static void updateTimerPoi() {
@@ -81,26 +75,26 @@ public class UpdateTimerSystem extends DelayedEntitySystem<EntityStore> {
         if (Integer.toString(seconds).length() > 1) {
             placeDigit(Integer.toString(seconds).charAt(1), 6, 0);
             placeDigit(Integer.toString(seconds).charAt(0), 0, 0);
-            placeDigit(Integer.toString(minutes).charAt(1), -14, -4);
-            placeDigit(Integer.toString(minutes).charAt(0), -8, -4);
+            placeDigit(Integer.toString(seconds).charAt(1), -14, -4);
+            placeDigit(Integer.toString(seconds).charAt(0), -8, -4);
         } else {
-//            placeDigit(Integer.toString(seconds).charAt(0), 6, 0);
+            placeDigit(Integer.toString(seconds).charAt(0), 6, 0);
             placeDigit('0', 0, 0);
-            placeDigit(Integer.toString(minutes).charAt(0), -8, -4);
-            placeDigit('0', -14, -4);
+            placeDigit(Integer.toString(seconds).charAt(0), -14, -4);
+            placeDigit('0', -8, -4);
         }
 
         // Minutes
         if (Integer.toString(minutes).length() > 1) {
             placeDigit(Integer.toString(minutes).charAt(1), -8, 0);
             placeDigit(Integer.toString(minutes).charAt(0), -14, 0);
-            placeDigit(Integer.toString(seconds).charAt(1), 0, -4);
-            placeDigit(Integer.toString(seconds).charAt(0), 6, -4);
+            placeDigit(Integer.toString(minutes).charAt(1), 0, -4);
+            placeDigit(Integer.toString(minutes).charAt(0), 6, -4);
         } else {
             placeDigit('0', -14, 0);
             placeDigit(Integer.toString(minutes).charAt(0), -8, 0);
             placeDigit('0', 6, -4);
-            placeDigit(Integer.toString(seconds).charAt(0), 0, -4);
+            placeDigit(Integer.toString(minutes).charAt(0), 0, -4);
         }
     }
 
@@ -153,8 +147,11 @@ public class UpdateTimerSystem extends DelayedEntitySystem<EntityStore> {
             blockSelection = blockSelection.flip(transform.getAxis() == Axis.X ? Axis.Z : Axis.X);
         }
 
-        blockSelection.place(ConsoleSender.INSTANCE, poiWorld, pos, null,
-            (Ref<EntityStore> ref) -> {}
-        );
+        BlockSelection finalBlockSelection = blockSelection;
+        poiWorld.execute(() -> {
+            finalBlockSelection.place(ConsoleSender.INSTANCE, poiWorld, pos, null,
+                (Ref<EntityStore> _) -> {}
+            );
+        });
     }
 }
