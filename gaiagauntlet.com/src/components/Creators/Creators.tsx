@@ -3,11 +3,11 @@ import Image from "next/image";
 import creators from "../../../public/json/gg_team.json"
 
 export default function Creators() {
+    // TODO: Add a "GitHub" option for socials. Needs a new icon making, otherwise I'd just do it now :P
 
     return <div className={"creators"}>
         {creators.people.map(creator => {
-            console.log(creator);
-            return <div className={"creator"}>
+            return <div className={"creator"} key={creator.name}>
             <div className={"creator-img-container"}>
                 <Image
                     src={creator.image}
@@ -26,9 +26,8 @@ export default function Creators() {
 
                 {creator.socials ? <div className="socials">
                     {creator.socials.map(social =>
-                        <a href={social.url} target="_blank">
+                        <a href={social.url} target="_blank" key={social.name}>
                             <Image
-                                key={social.name}
                                 src={"/icons/"+social.name+".png"}
                                 alt={social.name}
                                 width={32}

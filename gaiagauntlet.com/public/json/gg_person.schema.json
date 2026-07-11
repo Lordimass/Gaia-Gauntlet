@@ -54,7 +54,7 @@
             "type": "array",
             "description": "Short bits of text relevant to this person's role.",
             "items": {
-              "maxLength": 15,
+              "maxLength": 20,
               "type": "string"
             },
             "uniqueItems": true

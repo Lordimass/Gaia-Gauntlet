@@ -2,10 +2,53 @@
   "people": [
     {
       "name": "Ikari",
-      "image": "/people/Lordimass.png",
+      "image": "/people/Ikari.png",
+      "quote": "I play Hytale or something and manage projects",
       "tags": [
         "Project Lead"
+      ],
+      "socials": [
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/@Ikarichi/videos"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://x.com/IkarinoKuni"
+        }
       ]
+    },
+    {
+      "name": "Oatman",
+      "image": "/people/Oatman.png",
+      "quote": "Making servers go brrr since 15",
+      "socials": [
+        {
+          "name": "Twitter",
+          "url": "https://x.com/oatman5000"
+        },
+        {
+          "name": "YouTube",
+          "url": "https://youtube.com/@oatman5000?si=HOEDh097ujH86kaS"
+        }
+      ],
+      "tags": ["Server Operations"]
+    },
+    {
+      "name": "Farren",
+      "image": "/people/Farren.png",
+      "quote": "I Build Stuff",
+      "socials": [
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/@FarrensTale"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://x.com/Farrens_Tale"
+        }
+      ],
+      "tags": ["Builder"]
     },
     {
       "name": "Lordimass",
@@ -35,6 +78,83 @@
       ],
       "tags": [
         "Developer", "Builder", "Modeller"
+      ]
+    },
+    {
+      "name": "oruuke",
+      "image": "/people/oruuke.png",
+      "quote": "download pillow mod :3",
+      "socials": [
+        {
+          "name": "Twitter",
+          "url": "https://x.com/oruuke"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.curseforge.com/hytale/mods/pillows-n-plushies"
+        }
+      ],
+      "tags": ["Modeller", "Developer"]
+    },
+    {
+      "name": "MKOutlaw",
+      "image": "/people/MKOutlaw.png",
+      "socials": [
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/@m.k.outlaw"
+        }
+      ],
+      "tags": ["Builder"]
+    },
+    {
+      "name": "ehko",
+      "image": "/people/ehko.png",
+      "socials": [
+        {
+          "name": "Website",
+          "url": "https://ehko.dev/"
+        }
+      ],
+      "tags": ["Developer"]
+    },
+    {
+      "name": "Syprus",
+      "image": "/people/Syprus.png",
+      "quote": "Artist, Builder, Creator, Dreamer.",
+      "socials": [
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/@SyprusHytale"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://x.com/SyprusBuilds"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.gg/SN4MWmNpWd"
+        }
+      ],
+      "tags": ["Branding"]
+    },
+    {
+      "name": "Edilan",
+      "image": "/people/Edilan.png",
+      "quote": "AUTOMATION",
+      "socials": [
+        {
+          "name": "Twitter",
+          "url": "https://x.com/EdilanTV"
+        },
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/@edilan"
+        },
+        {
+          "name": "Website",
+          "url": "https://github.com/Ed1lan"
+        }
       ]
     }
   ]

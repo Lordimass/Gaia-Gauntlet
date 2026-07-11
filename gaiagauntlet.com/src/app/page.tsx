@@ -32,6 +32,13 @@ export default function Home() {
                 <div className={styles.intro}>
                     <h2>The GG Team</h2>
                     <Creators />
+                    <blockquote>
+                        "I'm just one part of the team of people who work on making Gaia Gauntlet a reality. We all do
+                        this out of passion and love for the community, and none of us are paid, so we really appreciate
+                        your support. Thank you to everyone who contributed to making this project a reality, you're all
+                        amazing!"
+                    </blockquote>
+                    <p>- Lordimass</p>
                 </div>
             </main>
         </div>
