@@ -51,6 +51,26 @@
       "tags": ["Builder"]
     },
     {
+      "name": "Preston",
+      "image": "/people/Preston.png",
+      "quote": "Building cool things for people to enjoy!",
+      "socials": [
+        {
+          "name": "YouTube",
+          "url": "https://youtube.com/@orbisarchitect"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://x.com/OrbisArchitect"
+        },
+        {
+          "name": "Website",
+          "url": "https://twitch.tv/hytale_preston"
+        }
+      ],
+      "tags": ["Builder"]
+    },
+    {
       "name": "Lordimass",
       "image": "/people/Lordimass.png",
       "quote": "Just an Imp.",
@@ -155,7 +175,8 @@
           "name": "Website",
           "url": "https://github.com/Ed1lan"
         }
-      ]
+      ],
+      "tags": ["Developer"]
     }
   ]
 }
