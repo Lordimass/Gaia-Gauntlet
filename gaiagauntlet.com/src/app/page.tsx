@@ -61,7 +61,7 @@ export default function Home() {
             </div>
 
 
-            <ImageMarquee images={["/twitterPosts/post1.png", "/twitterPosts/post2.png"]} />
+            <ImageMarquee images={["/twitterPosts/post1.webp", "/twitterPosts/post2.webp"]} />
             <main className={styles.main}>
                 <div className={styles.intro}>
                     <h2>The GG Team</h2>

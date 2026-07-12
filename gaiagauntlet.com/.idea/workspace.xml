@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15843926-f58a-4910-8690-92726c2f5e57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/uiElements/ContainerDecoration.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/json/gg_team.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/json/gg_team.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/twitterPosts/post1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/twitterPosts/post2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Creators/Creators.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Creators/Creators.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Creators/Creators.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Creators/Creators.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <recent name="C:\Users\sam\Documents\GitHub\Gaia Gauntlet\gaiagauntlet.com\public\fonts" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
     </configuration>
@@ -101,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +123,7 @@
       <updated>1783757818144</updated>
       <workItem from="1783757819223" duration="106000" />
       <workItem from="1783757950330" duration="20768000" />
-      <workItem from="1783838603805" duration="17265000" />
+      <workItem from="1783838603805" duration="18691000" />
     </task>
     <servers />
   </component>

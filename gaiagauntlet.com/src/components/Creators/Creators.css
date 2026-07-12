@@ -37,17 +37,21 @@
     top: -5px;
     rotate: 180deg;
     height: auto;
+    width: auto;
   }
 
   >:last-child {
     position: absolute;
     bottom: -5px;
     height: auto;
+    width: auto;
   }
 
   .creator-img-container {
     min-height: 300px;
+    min-width: auto;
     width: 99.5%;
+    height: auto;
     border-radius: 0.5rem;
     overflow: hidden;
 

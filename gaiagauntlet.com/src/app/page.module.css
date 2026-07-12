@@ -27,6 +27,9 @@
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
   box-shadow: 0 5px 10px #000;
+  background-image: url("/above-portal.png");
+  background-position-x: center;
+  background-position-y: 0;
 
   @media screen and (max-width: 800px) {
     height: 20rem;
@@ -35,8 +38,8 @@
 
 .header {
   display: flex;
-  background: rgba(0,0,0, 0.2); /* Darken Background*/
-  box-shadow: 0 0 10rem 2rem rgba(0,0,0,0.9) inset;
+  /*background: rgba(0,0,0, 0.2); !* Darken Background*!*/
+  box-shadow: 0 0 5rem 1rem rgba(0,0,0,0.9) inset;
   z-index: 1;
   position: relative;
   top: -300%;

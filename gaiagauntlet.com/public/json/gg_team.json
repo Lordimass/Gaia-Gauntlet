@@ -2,7 +2,7 @@
   "people": [
     {
       "name": "Ikari",
-      "image": "/people/Ikari.png",
+      "image": "/people/Ikari.webp",
       "quote": "I play Hytale or something and manage projects",
       "tags": [
         "Project Lead"
@@ -20,7 +20,7 @@
     },
     {
       "name": "Oatman",
-      "image": "/people/Oatman.png",
+      "image": "/people/Oatman.webp",
       "quote": "Making servers go brrr since 15",
       "socials": [
         {
@@ -36,7 +36,7 @@
     },
     {
       "name": "Farren",
-      "image": "/people/Farren.png",
+      "image": "/people/Farren.webp",
       "quote": "I Build Stuff",
       "socials": [
         {
@@ -52,7 +52,7 @@
     },
     {
       "name": "Preston",
-      "image": "/people/Preston.png",
+      "image": "/people/Preston.webp",
       "quote": "Building cool things for people to enjoy!",
       "socials": [
         {
@@ -72,7 +72,7 @@
     },
     {
       "name": "Lordimass",
-      "image": "/people/Lordimass.png",
+      "image": "/people/Lordimass.webp",
       "quote": "Just an Imp.",
       "socials": [
         {
@@ -102,7 +102,7 @@
     },
     {
       "name": "oruuke",
-      "image": "/people/oruuke.png",
+      "image": "/people/oruuke.webp",
       "quote": "download pillow mod :3",
       "socials": [
         {
@@ -118,7 +118,7 @@
     },
     {
       "name": "MKOutlaw",
-      "image": "/people/MKOutlaw.png",
+      "image": "/people/MKOutlaw.webp",
       "socials": [
         {
           "name": "YouTube",
@@ -129,7 +129,7 @@
     },
     {
       "name": "ehko",
-      "image": "/people/ehko.png",
+      "image": "/people/ehko.webp",
       "socials": [
         {
           "name": "Website",
@@ -140,7 +140,7 @@
     },
     {
       "name": "Syprus",
-      "image": "/people/Syprus.png",
+      "image": "/people/Syprus.webp",
       "quote": "Artist, Builder, Creator, Dreamer.",
       "socials": [
         {
@@ -160,7 +160,7 @@
     },
     {
       "name": "Edilan",
-      "image": "/people/Edilan.png",
+      "image": "/people/Edilan.webp",
       "quote": "AUTOMATION",
       "socials": [
         {
