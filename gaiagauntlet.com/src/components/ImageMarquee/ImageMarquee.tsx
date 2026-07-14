@@ -6,7 +6,7 @@ interface Props {
 }
 
 export default function ImageMarquee({ images }: Props) {
-    const duplicatedImages = [...images, ...images];
+    const duplicatedImages = [...images, ...images, ...images, ...images, ...images, ...images];
 
     return (
         <div className="wrapper-marquee">
