@@ -22,9 +22,17 @@ public class GGConfig {
             )
             .documentation("Origin location for the countdown timer before the game starts.")
             .add()
+            .append(
+                new KeyedCodec<>("PortalBlock", GGPoi.CODEC),
+                GGConfig::setTimerPoi,
+                GGConfig::getTimerPoi
+            )
+            .documentation("Origin location for the portal block to be placed on.")
+            .add()
             .build();
 
     @Setter @Getter @Nullable private GGPoi timerPoi;
+    @Setter @Getter @Nullable private GGPoi portalPoi;
 
     public static GGConfig get() {
         return GGServerPlugin.get().config.get();

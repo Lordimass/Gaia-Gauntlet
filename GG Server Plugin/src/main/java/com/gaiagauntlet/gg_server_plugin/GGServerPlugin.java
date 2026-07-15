@@ -1,7 +1,7 @@
 package com.gaiagauntlet.gg_server_plugin;
 
 import com.gaiagauntlet.gg_server_plugin.commands.GaiaGauntletCommand;
-import com.gaiagauntlet.gg_server_plugin.prefabTimer.systems.UpdateTimerSystem;
+import com.gaiagauntlet.gg_server_plugin.lobby.prefabTimer.systems.UpdateTimerSystem;
 import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;

@@ -1,30 +1,16 @@
-package com.gaiagauntlet.gg_server_plugin.prefabTimer.commands;
+package com.gaiagauntlet.gg_server_plugin.lobby.prefabTimer.commands;
 
-import com.gaiagauntlet.gg_server_plugin.GGConfig;
-import com.gaiagauntlet.gg_server_plugin.prefabTimer.systems.UpdateTimerSystem;
-import com.gaiagauntlet.gg_server_plugin.prefabTimer.utils.TimerPrefabUtils;
-import com.hypixel.hytale.component.Ref;
+import com.gaiagauntlet.gg_server_plugin.lobby.prefabTimer.systems.UpdateTimerSystem;
+import com.gaiagauntlet.gg_server_plugin.lobby.prefabTimer.TimerPrefabUtils;
 import com.hypixel.hytale.logger.HytaleLogger;
-import com.hypixel.hytale.math.Axis;
-import com.hypixel.hytale.math.vector.Transform;
 import com.hypixel.hytale.server.core.command.system.AbstractCommand;
 import com.hypixel.hytale.server.core.command.system.CommandContext;
 import com.hypixel.hytale.server.core.command.system.arguments.system.DefaultArg;
 import com.hypixel.hytale.server.core.command.system.arguments.types.ArgTypes;
-import com.hypixel.hytale.server.core.console.ConsoleSender;
-import com.hypixel.hytale.server.core.prefab.PrefabStore;
-import com.hypixel.hytale.server.core.prefab.selection.standard.BlockSelection;
-import com.hypixel.hytale.server.core.universe.Universe;
-import com.hypixel.hytale.server.core.universe.world.World;
-import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
-import com.hypixel.hytale.server.core.util.PrefabUtil;
-import org.joml.Vector3d;
 import org.joml.Vector3i;
 import org.jspecify.annotations.NonNull;
 import org.jspecify.annotations.Nullable;
 
-import java.awt.*;
-import java.nio.file.Path;
 import java.util.concurrent.CompletableFuture;
 
 public class StartCommand extends AbstractCommand {
@@ -34,7 +20,7 @@ public class StartCommand extends AbstractCommand {
     private final DefaultArg<Integer> minutesArg;
     private final DefaultArg<Integer> secondsArg;
 
-    public StartCommand() {
+    protected StartCommand() {
         super("start", "Start the countdown timer for game start");
 
         minutesArg = withDefaultArg("minutes", "The number of minutes the timer should run for", ArgTypes.INTEGER, 20, "20 minutes");

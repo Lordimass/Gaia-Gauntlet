@@ -1,10 +1,9 @@
-package com.gaiagauntlet.gg_server_plugin.prefabTimer.commands;
+package com.gaiagauntlet.gg_server_plugin.commands;
 
 import com.gaiagauntlet.gg_server_plugin.GGConfig;
-import com.gaiagauntlet.gg_server_plugin.prefabTimer.systems.UpdateTimerSystem;
+import com.gaiagauntlet.gg_server_plugin.lobby.prefabTimer.systems.UpdateTimerSystem;
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
-import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.math.vector.Transform;
 import com.hypixel.hytale.server.core.Message;
 import com.hypixel.hytale.server.core.command.system.CommandContext;
@@ -14,11 +13,18 @@ import com.hypixel.hytale.server.core.universe.world.World;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import org.jspecify.annotations.NonNull;
 
-public class SetOriginCommand extends AbstractPlayerCommand {
-    private static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
+import java.util.UUID;
 
-    public SetOriginCommand() {
-        super("setorigin", "Set the point origin of the timer prefabs");
+public class SetPoiCommand extends AbstractPlayerCommand {
+    private final GetPoiFunction getPoiFunc;
+    private final SetPoiFunction setPoiFunc;
+    private final String poiName;
+
+    public SetPoiCommand(@NonNull String name, @NonNull String description, GetPoiFunction getPoiFunc, SetPoiFunction setPoiFunc, String poiName) {
+        super(name, description);
+        this.getPoiFunc = getPoiFunc;
+        this.setPoiFunc = setPoiFunc;
+        this.poiName = poiName;
     }
 
     @Override
@@ -32,9 +38,9 @@ public class SetOriginCommand extends AbstractPlayerCommand {
         Transform playerTransform = playerRef.getTransform().clone();
         playerTransform.setRotation(playerRef.getHeadRotation());
         playerTransform.getRotation().setPitch(0);
-        GGConfig.GGPoi prev = GGConfig.get().getTimerPoi();
+        GGConfig.GGPoi prev = getPoiFunc.apply();
         GGConfig.GGPoi poi = new GGConfig.GGPoi(playerTransform, world.getName());
-        GGConfig.get().setTimerPoi(poi);
+        setPoiFunc.apply(poi);
         GGConfig.getConfig().save();
 
         LOGGER.atInfo().log(playerTransform.getAxis().toString());
@@ -42,7 +48,17 @@ public class SetOriginCommand extends AbstractPlayerCommand {
         UpdateTimerSystem.updateTimerPoi();
 
         playerRef.sendMessage(
-            Message.raw("Changed timer origin from " + prev + " to " + poi)
+            Message.raw("Changed " + poiName + " from " + prev + " to " + poi)
         );
+    }
+
+    @FunctionalInterface
+    public interface GetPoiFunction {
+        GGConfig.GGPoi apply();
+    }
+
+    @FunctionalInterface
+    public interface SetPoiFunction {
+        void apply(GGConfig.GGPoi poi);
     }
 }

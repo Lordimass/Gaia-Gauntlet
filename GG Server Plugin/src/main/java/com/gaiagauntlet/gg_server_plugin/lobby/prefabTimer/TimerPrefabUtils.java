@@ -1,6 +1,7 @@
-package com.gaiagauntlet.gg_server_plugin.prefabTimer.utils;
+package com.gaiagauntlet.gg_server_plugin.lobby.prefabTimer;
 
 import com.gaiagauntlet.gg_server_plugin.GGConfig;
+import com.gaiagauntlet.gg_server_plugin.lobby.portal.commands.OpenCommand;
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.math.Axis;
 import com.hypixel.hytale.math.vector.Transform;
@@ -36,11 +37,14 @@ public class TimerPrefabUtils {
             pos.add(new Vector3i(offset.z, offset.y, offset.x));
         }
 
-        World poiWorld = Universe.get().getWorld(timerPoi.getWorldName());
+        placeBlockSelection(timerPoi, blockSelection, pos);
+    }
+
+    public static void placeBlockSelection(GGConfig.GGPoi poi, BlockSelection blockSelection, Vector3i pos) {
+        World poiWorld = Universe.get().getWorld(poi.getWorldName());
         assert poiWorld != null;
-        BlockSelection finalBlockSelection = blockSelection;
         poiWorld.execute(() -> {
-            finalBlockSelection.place(ConsoleSender.INSTANCE, poiWorld, pos, null,
+            blockSelection.place(ConsoleSender.INSTANCE, poiWorld, pos, null,
                 (Ref<EntityStore> ref) -> {}
             );
         });
