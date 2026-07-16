@@ -1,14 +1,18 @@
 package com.gaiagauntlet.gg_server_plugin.lobby.portal.commands;
 
-import com.hypixel.hytale.server.core.command.system.AbstractCommand;
+import com.hypixel.hytale.component.Ref;
+import com.hypixel.hytale.component.Store;
 import com.hypixel.hytale.server.core.command.system.CommandContext;
+import com.hypixel.hytale.server.core.command.system.basecommands.AbstractPlayerCommand;
+import com.hypixel.hytale.server.core.universe.PlayerRef;
+import com.hypixel.hytale.server.core.universe.world.World;
+import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import org.jspecify.annotations.NonNull;
-import org.jspecify.annotations.Nullable;
-import java.util.concurrent.CompletableFuture;
 
-import static com.gaiagauntlet.gg_server_plugin.lobby.portal.commands.OpenCommand.placePortalPrefab;
+import static com.gaiagauntlet.gg_server_plugin.lobby.portal.commands.PortalCommand.placePortalPrefab;
+import static com.gaiagauntlet.gg_server_plugin.lobby.portal.commands.PortalCommand.setTriggerVolumesEnabled;
 
-public class CloseCommand extends AbstractCommand {
+public class CloseCommand extends AbstractPlayerCommand {
     private static final String CLEAR_PORTAL_PREFAB = "Portal/ClearPortal.prefab.json";
 
     protected CloseCommand() {
@@ -16,8 +20,14 @@ public class CloseCommand extends AbstractCommand {
     }
 
     @Override
-    protected @Nullable CompletableFuture<Void> execute(@NonNull CommandContext commandContext) {
+    protected void execute(
+        @NonNull CommandContext commandContext,
+        @NonNull Store<EntityStore> store,
+        @NonNull Ref<EntityStore> ref,
+        @NonNull PlayerRef playerRef,
+        @NonNull World world
+    ) {
         placePortalPrefab(commandContext, CLEAR_PORTAL_PREFAB);
-        return null;
+        setTriggerVolumesEnabled(store, false);
     }
 }

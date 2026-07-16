@@ -24,20 +24,15 @@
           }
         }
       }
-    },
+    }
+  ],
+  "fluids": [
     {
       "x": 0,
       "y": 0,
-      "z": 1,
-      "name": "GG_Portal",
-      "filler": 32
-    },
-    {
-      "x": 0,
-      "y": -2,
-      "z": 4,
-      "name": "Spawn_Temple_Circle",
-      "rotation": 1
+      "z": 0,
+      "name": "Empty",
+      "level": 0
     }
   ]
 }

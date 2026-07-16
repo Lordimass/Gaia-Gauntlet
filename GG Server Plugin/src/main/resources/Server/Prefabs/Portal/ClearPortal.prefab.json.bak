@@ -9,13 +9,17 @@
       "x": 0,
       "y": 0,
       "z": 0,
-      "name": "Empty"
-    },
+      "name": "Empty",
+      "components": {}
+    }
+  ],
+  "fluids": [
     {
       "x": 0,
-      "y": -2,
-      "z": 5,
-      "name": "Empty"
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
     }
   ]
 }

@@ -17,22 +17,27 @@ public class GGConfig {
         BuilderCodec.builder(GGConfig.class, GGConfig::new)
             .append(
                 new KeyedCodec<>("LobbyTimer", GGPoi.CODEC),
-                GGConfig::setTimerPoi,
-                GGConfig::getTimerPoi
+                GGConfig::setTimerPoi, GGConfig::getTimerPoi
             )
             .documentation("Origin location for the countdown timer before the game starts.")
             .add()
             .append(
                 new KeyedCodec<>("PortalBlock", GGPoi.CODEC),
-                GGConfig::setTimerPoi,
-                GGConfig::getTimerPoi
+                GGConfig::setTimerPoi, GGConfig::getTimerPoi
             )
             .documentation("Origin location for the portal block to be placed on.")
+            .add()
+            .append(
+                new KeyedCodec<>("PortalTriggerVolumes", Codec.STRING_ARRAY),
+                GGConfig::setPortalTVs, GGConfig::getPortalTVs
+            )
+            .documentation("IDs of trigger volumes which should be active when the lobby portal is open.")
             .add()
             .build();
 
     @Setter @Getter @Nullable private GGPoi timerPoi;
     @Setter @Getter @Nullable private GGPoi portalPoi;
+    @Setter @Getter private String[] portalTVs = {};
 
     public static GGConfig get() {
         return GGServerPlugin.get().config.get();
