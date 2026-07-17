@@ -30,8 +30,8 @@ public class PortalCommand extends AbstractCommand {
     public PortalCommand() {
         super("portal", "Commands related to the portal from the lobby to the game world");
 
-        addSubCommand(new OpenCommand());
-        addSubCommand(new CloseCommand());
+        addSubCommand(new PortalOpenCommand());
+        addSubCommand(new PortalCloseCommand());
 
         addSubCommand(new SetPoiCommand(
             "setorigin",
@@ -89,7 +89,7 @@ public class PortalCommand extends AbstractCommand {
         return null;
     }
 
-    protected static void setTriggerVolumesEnabled(Store<EntityStore> store, boolean enabled) {
+    protected static void toggleTriggerVolumesEnabled(Store<EntityStore> store) {
         TriggerVolumesPlugin plugin = TriggerVolumesPlugin.get();
         TriggerVolumeManager manager = store.getResource(plugin.getManagerResourceType());
 
@@ -98,7 +98,7 @@ public class PortalCommand extends AbstractCommand {
             if (portalTV == null) continue;
             VolumeEntry tv = manager.getVolume(portalTV);
             if (tv == null) continue;
-            tv.setEnabled(enabled);
+            tv.setEnabled(!tv.isEnabled());
         }
     }
 }

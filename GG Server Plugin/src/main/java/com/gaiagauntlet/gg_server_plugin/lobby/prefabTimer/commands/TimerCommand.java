@@ -13,8 +13,8 @@ public class TimerCommand extends AbstractCommand {
     public TimerCommand() {
         super("timer", "Commands related to the timer for game start");
 
-        addSubCommand(new StartCommand());
-        addSubCommand(new StopCommand());
+        addSubCommand(new TimerStartCommand());
+        addSubCommand(new TimerStopCommand());
         addSubCommand(new SetPoiCommand(
             "setorigin",
             "Set the point origin of the timer prefabs",

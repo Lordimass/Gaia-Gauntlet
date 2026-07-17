@@ -1,5 +1,6 @@
 package com.gaiagauntlet.gg_server_plugin.commands;
 
+import com.gaiagauntlet.gg_server_plugin.lobby.commands.GameStartCommand;
 import com.gaiagauntlet.gg_server_plugin.lobby.portal.commands.PortalCommand;
 import com.gaiagauntlet.gg_server_plugin.lobby.prefabTimer.commands.TimerCommand;
 import com.hypixel.hytale.server.core.command.system.AbstractCommand;
@@ -16,6 +17,7 @@ public class GaiaGauntletCommand extends AbstractCommand {
         super("gaiagauntlet", "Gaia Gauntlet admin commands");
 
         this.addAliases("gg");
+        this.addSubCommand(new GameStartCommand());
         this.addSubCommand(new TimerCommand());
         this.addSubCommand(new PortalCommand());
 

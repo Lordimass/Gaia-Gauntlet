@@ -23,7 +23,7 @@ public class GGConfig {
             .add()
             .append(
                 new KeyedCodec<>("PortalBlock", GGPoi.CODEC),
-                GGConfig::setTimerPoi, GGConfig::getTimerPoi
+                GGConfig::setPortalPoi, GGConfig::getPortalPoi
             )
             .documentation("Origin location for the portal block to be placed on.")
             .add()

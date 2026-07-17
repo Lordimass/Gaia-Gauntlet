@@ -1,7 +1,7 @@
 {
     "Group": "com.gaiagauntlet",
     "Name": "GG Server Plugin",
-    "Version": "0.1.0",
+    "Version": "0.1.2",
     "Description": "Official server-side plugin for the Gaia Gauntlet server.",
     "Authors": [
         {

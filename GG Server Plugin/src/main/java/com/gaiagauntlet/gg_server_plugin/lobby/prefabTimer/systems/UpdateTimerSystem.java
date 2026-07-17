@@ -22,8 +22,9 @@ public class UpdateTimerSystem extends TickingSystem<EntityStore> {
     private static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
 
     public static float secondsLeft = 0;
-    public static float cumulativeSecond = 0;
+    public static Runnable nextCompletionCallback = null;
 
+    public static float cumulativeSecond = 0;
     public static boolean paused = true;
     private static GGConfig.GGPoi timerPoi;
     private static World poiWorld;
@@ -46,6 +47,13 @@ public class UpdateTimerSystem extends TickingSystem<EntityStore> {
         if (cumulativeSecond <= 1) return;
 
         paused = secondsLeft <= 0;
+        if (paused) {
+            // Timer complete
+            if (nextCompletionCallback != null) {
+                nextCompletionCallback.run();
+                nextCompletionCallback = null;
+            }
+        }
         int secondsCeil = (int) Math.ceil(secondsLeft);
 
         int minutes = secondsCeil / 60;
@@ -58,11 +66,12 @@ public class UpdateTimerSystem extends TickingSystem<EntityStore> {
         }
 
         secondsLeft = Math.max(0, secondsLeft - cumulativeSecond);
-        cumulativeSecond -= cumulativeSecond;
+        cumulativeSecond = 0;
     }
 
     public static void updateTimerPoi() {
         timerPoi = GGConfig.get().getTimerPoi();
+        assert timerPoi != null;
         poiWorld = Universe.get().getWorld(timerPoi.getWorldName());
     }
 

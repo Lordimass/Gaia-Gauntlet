@@ -41,15 +41,13 @@ public class SetPoiCommand extends AbstractPlayerCommand {
         GGConfig.GGPoi prev = getPoiFunc.apply();
         GGConfig.GGPoi poi = new GGConfig.GGPoi(playerTransform, world.getName());
         setPoiFunc.apply(poi);
-        GGConfig.getConfig().save();
+        GGConfig.getConfig().save().thenRun(() -> {
+            LOGGER.atInfo().log(playerTransform.getAxis().toString());
 
-        LOGGER.atInfo().log(playerTransform.getAxis().toString());
-
-        UpdateTimerSystem.updateTimerPoi();
-
-        playerRef.sendMessage(
-            Message.raw("Changed " + poiName + " from " + prev + " to " + poi)
-        );
+            playerRef.sendMessage(
+                Message.raw("Changed " + poiName + " from " + prev + " to " + poi)
+            );
+        });
     }
 
     @FunctionalInterface

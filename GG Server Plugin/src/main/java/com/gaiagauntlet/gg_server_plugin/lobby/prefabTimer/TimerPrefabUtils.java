@@ -1,7 +1,6 @@
 package com.gaiagauntlet.gg_server_plugin.lobby.prefabTimer;
 
 import com.gaiagauntlet.gg_server_plugin.GGConfig;
-import com.gaiagauntlet.gg_server_plugin.lobby.portal.commands.OpenCommand;
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.math.Axis;
 import com.hypixel.hytale.math.vector.Transform;
